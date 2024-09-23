@@ -46,9 +46,9 @@ def detect_lower_teeth():
 
     original_stdout = sys.stdout
     sys.stdout = DummyFile()
-    rf = Roboflow(api_key="CDxrYtIlfwTupxOwIJDJ")
-    project = rf.workspace().project("segmentation-lower-teeth2")
-    model = project.version("2").model
+    rf = Roboflow(api_key="")
+    project = rf.workspace().project("")
+    model = project.version("").model
     sys.stdout = original_stdout
   
     # Define threshold
