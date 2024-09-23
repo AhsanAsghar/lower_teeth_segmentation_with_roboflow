@@ -11,3 +11,6 @@ Redundant Segmentation Removal: After inference, the code removes redundant segm
 Major Benefits:
 Accurate Tooth Numbering: According to CDI (Complete Dental Index) standards, this repository ensures that tooth numbers are correctly detected. It automatically corrects instances where the model may assign incorrect tooth numbers, significantly reducing false positives. Even if the model predicts an incorrect tooth number, the code can autonomously correct it.
 
+
+Results:
+![01L](https://github.com/user-attachments/assets/f0df3ce5-053d-4310-a041-58934b6dba5f)
